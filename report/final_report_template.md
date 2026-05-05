@@ -62,8 +62,8 @@ Paste summary from `python src/07_run_benchmark.py` here.
 
 | Type | Flat RAG Accuracy | GraphRAG Accuracy | Flat Latency | Graph Latency |
 |---|---:|---:|---:|---:|
-| single-hop |  |  |  |  |
-| multi-hop |  |  |  |  |
+| single-hop | 0.7 | 0.3 | 2.163 | 2.311 |
+| multi-hop | 0.8 | 0.9 | 2.091 | 1.812 |
 
 ## 7. Failure modes
 
