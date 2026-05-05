@@ -1,0 +1,12 @@
+OpenAI
+Anthropic
+DeepMind
+Google Brain
+Mistral AI
+Scale AI
+Perplexity AI
+Stability AI
+Nvidia
+Microsoft
+Meta Platforms
+Amazon Web Services

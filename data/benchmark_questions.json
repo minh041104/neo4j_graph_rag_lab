@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "What is OpenAI?",
+    "type": "single-hop",
+    "expected_entities": ["OpenAI"],
+    "gold_answer_hint": "OpenAI is an artificial intelligence organization/company known for ChatGPT and AI research."
+  },
+  {
+    "id": 2,
+    "question": "Which company developed ChatGPT?",
+    "type": "single-hop",
+    "expected_entities": ["OpenAI", "ChatGPT"],
+    "gold_answer_hint": "OpenAI developed ChatGPT."
+  },
+  {
+    "id": 3,
+    "question": "Which company developed Claude?",
+    "type": "single-hop",
+    "expected_entities": ["Anthropic", "Claude"],
+    "gold_answer_hint": "Anthropic developed Claude."
+  },
+  {
+    "id": 4,
+    "question": "What is DeepMind related to?",
+    "type": "single-hop",
+    "expected_entities": ["DeepMind", "Google"],
+    "gold_answer_hint": "DeepMind is related to Google/Alphabet."
+  },
+  {
+    "id": 5,
+    "question": "Which company is associated with Mistral models?",
+    "type": "single-hop",
+    "expected_entities": ["Mistral AI"],
+    "gold_answer_hint": "Mistral AI is associated with Mistral models."
+  },
+  {
+    "id": 6,
+    "question": "Which company is associated with Llama models?",
+    "type": "single-hop",
+    "expected_entities": ["Meta Platforms", "Llama"],
+    "gold_answer_hint": "Meta Platforms / Meta AI is associated with Llama models."
+  },
+  {
+    "id": 7,
+    "question": "Which company provides Amazon Web Services?",
+    "type": "single-hop",
+    "expected_entities": ["Amazon Web Services", "Amazon"],
+    "gold_answer_hint": "Amazon Web Services is a cloud platform/service from Amazon."
+  },
+  {
+    "id": 8,
+    "question": "Which company produces GPUs used in AI?",
+    "type": "single-hop",
+    "expected_entities": ["Nvidia", "GPU"],
+    "gold_answer_hint": "Nvidia produces GPUs widely used for AI workloads."
+  },
+  {
+    "id": 9,
+    "question": "Which company owns or is related to Instagram and WhatsApp?",
+    "type": "single-hop",
+    "expected_entities": ["Meta Platforms", "Instagram", "WhatsApp"],
+    "gold_answer_hint": "Meta Platforms owns Instagram and WhatsApp."
+  },
+  {
+    "id": 10,
+    "question": "Which company is associated with Windows and Azure?",
+    "type": "single-hop",
+    "expected_entities": ["Microsoft", "Windows", "Azure"],
+    "gold_answer_hint": "Microsoft is associated with Windows and Azure."
+  },
+  {
+    "id": 11,
+    "question": "Which AI companies were founded by people formerly associated with OpenAI?",
+    "type": "multi-hop",
+    "expected_entities": ["Anthropic", "OpenAI"],
+    "gold_answer_hint": "Anthropic is a strong expected answer because it was founded by former OpenAI members."
+  },
+  {
+    "id": 12,
+    "question": "Which AI companies are connected to Google through acquisition, organization, or former employment relationships?",
+    "type": "multi-hop",
+    "expected_entities": ["DeepMind", "Google Brain", "Google"],
+    "gold_answer_hint": "DeepMind and Google Brain should connect to Google/Alphabet."
+  },
+  {
+    "id": 13,
+    "question": "Which companies in the corpus are connected to cloud computing and AI infrastructure?",
+    "type": "multi-hop",
+    "expected_entities": ["Amazon Web Services", "Microsoft", "Nvidia"],
+    "gold_answer_hint": "AWS, Microsoft Azure, and Nvidia are expected infrastructure-related entities."
+  },
+  {
+    "id": 14,
+    "question": "Which companies in the corpus are connected to large language models?",
+    "type": "multi-hop",
+    "expected_entities": ["OpenAI", "Anthropic", "Mistral AI", "Meta Platforms"],
+    "gold_answer_hint": "OpenAI, Anthropic, Mistral AI, and Meta are expected LLM-related companies."
+  },
+  {
+    "id": 15,
+    "question": "Which AI company is linked to both ChatGPT and Microsoft?",
+    "type": "multi-hop",
+    "expected_entities": ["OpenAI", "ChatGPT", "Microsoft"],
+    "gold_answer_hint": "OpenAI is linked to ChatGPT and Microsoft."
+  },
+  {
+    "id": 16,
+    "question": "Which companies in the corpus are connected to Google or Alphabet?",
+    "type": "multi-hop",
+    "expected_entities": ["DeepMind", "Google Brain", "Google"],
+    "gold_answer_hint": "DeepMind and Google Brain are expected Google/Alphabet-connected entities."
+  },
+  {
+    "id": 17,
+    "question": "Which company is connected to GPUs and AI training?",
+    "type": "multi-hop",
+    "expected_entities": ["Nvidia", "GPU", "AI"],
+    "gold_answer_hint": "Nvidia is the expected answer."
+  },
+  {
+    "id": 18,
+    "question": "Which companies in the corpus are AI startups rather than large platform companies?",
+    "type": "multi-hop",
+    "expected_entities": ["OpenAI", "Anthropic", "Mistral AI", "Perplexity AI", "Scale AI", "Stability AI"],
+    "gold_answer_hint": "Expected startup-like companies include OpenAI, Anthropic, Mistral AI, Perplexity AI, Scale AI, and Stability AI."
+  },
+  {
+    "id": 19,
+    "question": "Which company is connected to search or answer engines in AI?",
+    "type": "multi-hop",
+    "expected_entities": ["Perplexity AI"],
+    "gold_answer_hint": "Perplexity AI is expected."
+  },
+  {
+    "id": 20,
+    "question": "Which companies are connected through AI model development and cloud/platform infrastructure?",
+    "type": "multi-hop",
+    "expected_entities": ["OpenAI", "Microsoft", "Amazon Web Services", "Nvidia", "Meta Platforms"],
+    "gold_answer_hint": "Expected entities include OpenAI, Microsoft, AWS, Nvidia, and Meta."
+  }
+]

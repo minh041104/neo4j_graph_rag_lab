@@ -1,0 +1,7 @@
+neo4j
+python-dotenv
+pandas
+openai
+dotenv
+wikipedia-api
+pydantic
